@@ -198,9 +198,81 @@ nav .menu{
   left: 30%;
 }
 
-.contact-info{
-  color:white;
-  font-size: 24px;
+table, th td{
+  border: 5px solid;
+  border-color: #26A458;
+  border-collapse: collapse;
+  color: white;
+  font-size: 18px;
+}
+
+table{
+  width: 70%;
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  left: 15%;
+  font-size: 18px;
+}
+
+
+
+/*Projekti lapa*/
+.projekti{
+  font-size: 33px;
+  position: absolute;
+  top:10%;
+  color: white;
+  left: 30%;
+}
+
+.quick-d{
+  font-size: 26px;
+  position: absolute;
+  top: 55%;
+  left: 20%;
+  color: white;
+}
+
+.valodas{
   position:absolute;
+  color: white;
+  top: 30%;
+  left: 10%;
+  font-size: 18px;
+}
+
+.grupas-projekti{
+  color: white;
+  top: 65%;
+  font-size: 18px;
+  left: 5%;
+  position: absolute;
+}
+
+.pats-projekti{
+  color: white;
+  top: 65%;
+  font-size: 18px;
+  right: 5%;
+  position: absolute;
+}
+
+/* Sociālie tīkli */ 
+
+.soc{
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  color: white;
+  font-size: 28px;
   
+}
+
+.sazina-head{
+  position: absolute;
+  color: white;
+  top: 10%;
+  left: 40%;
+  font-size: 28px;
 }
