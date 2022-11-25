@@ -30,21 +30,22 @@
     Tiešā saziņa šeit
   </div>
 
-
-
-  <div id="forma-jaut">
-    <form id="text-form" action="#">
-      <h2>Pievienot jautājumu</h2>
-      <input type="text" id="name" placeholder="Jūsu vārds">
-      <input type="text" id="surname" placeholder="Jūsu uzvārds">
-      <input type="text" id="epasts" placeholder="E-pasts uz kuru nosūtīt atbildi">
-      <input type="text" id="saturs" placeholder="Jūsu jautājums">
-      <button type="submit" id="sendQuast">Nosūtīt jautājumu</button>
+  <div class="container">
+    <form action="https://formsubmit.co/el/kkalkis21@gmail.com" method="POST">
+      <label for="fname">Full name: </label><br>
+      <input type="text" id="fname" name="fname" placeholder="Full name" required><br>
+      <label for="E-mail">E-mail for answer: </label><br>
+      <input type="text" id="email" name="E-mail" placeholder="E-MAIL" required><br>
+      <label for="Question">Question: </label><br>
+      <input type="text" id="Question" name="Question" placeholder="Question" required><br>
+      <button type="submit">Send</button>
     </form>
   </div>
 
-  <div id="table">
-  </div>
+
+
+  <div class="addQuest">Pievienot jautājumu</div>
+  
 
   <script src="script.js"></script>
 </body>

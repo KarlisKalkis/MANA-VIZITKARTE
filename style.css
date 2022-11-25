@@ -48,7 +48,7 @@ nav .menu{
 }
 .img{
   background: url('static/img/background.jpg')no-repeat;
-  width: 100%;
+  width: 120%;
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -278,58 +278,22 @@ table{
 }
 
 /* Sazina */
-
-#button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#pievienot-ierakstu{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 200px;
-  height: 30px;
-  cursor: pointer;
+.addQuest{
+  font-size: 20px;
+  position: absolute;
+  top: 20%;
+  right: 45%;
   color: white;
-  background-color: #2D8484;
-  border-radius: 15px;
-  top: 20%;
-  font-size: 20px;
-  position: absolute;
-  left: 40%;
+  
 }
 
-h2{
+form{
+  font-size: 20px;
+  background-color: none;
+  position: absolute;
+  right: 45%;
+  top: 30%;
   color: white;
-  font-size: 20px;
-  top: 20%;
-  position: absolute;
-  left: 41%;
+  
 }
-
-
-.paslepts{
-  display: none;
-  position: fixed;
-  z-index: 1;
-  font-size: 20px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #2D8484;
-}
-
-form #text-form{
-  background-color: #2D8484;
-  margin: 15% auto;
-  padding: 20px;
-  border: 2px black;
-  width: 25%;
-  top: 20%;
-  position: absolute;
-}
-
 
