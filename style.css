@@ -280,15 +280,24 @@ table{
 /* Sazina */
 .heading{
   position: absolute;
-  top: 20%;
+  top: 10%;
   color: white;
   left: 40%;
-  font-size: 24px;
+
 }
 
 .head{
-  font-size: 24px;
+  font-size: 30px;
   margin: 2%;
+  width: 300px;
+  text-align: center;
+}
+
+.sub-head{
+  font-size: 24px;
+  text-decoration: underline;
+  margin: 2%;
+  text-align: center;
 }
 
 
