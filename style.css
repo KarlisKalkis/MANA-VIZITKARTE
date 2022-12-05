@@ -278,22 +278,10 @@ table{
 }
 
 /* Sazina */
-.addQuest{
-  font-size: 20px;
+.heading{
   position: absolute;
   top: 20%;
-  right: 45%;
   color: white;
-  
-}
-
-form{
-  font-size: 20px;
-  background-color: none;
-  position: absolute;
-  right: 45%;
-  top: 30%;
-  color: white;
-  
+  left: 40%
 }
 
