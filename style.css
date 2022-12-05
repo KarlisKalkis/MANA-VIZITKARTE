@@ -282,6 +282,13 @@ table{
   position: absolute;
   top: 20%;
   color: white;
-  left: 40%
+  left: 40%;
+  font-size: 24px;
 }
+
+.head{
+  font-size: 24px;
+  margin: 2%;
+}
+
 
