@@ -3,5 +3,5 @@
 namespace App;
 
 class Database {
-    public $host = 1234;
+    public $host = 'localhost';
 }
