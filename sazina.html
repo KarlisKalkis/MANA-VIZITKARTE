@@ -12,7 +12,7 @@
   <nav>
     <div class="menu">
     <ul>
-      <li><a href="index.html"</li>Home</a></li>
+      <li><a href="index.html">Home</a></li>
       <li><a href="par_mani.html">Par mani</a></li>
       <li><a href="kontaktinformacija.html">Kontaktinformācija</a></li>
       <li><a href="projekti.html">Projekti</a></li>
@@ -22,14 +22,33 @@
     </div>
   </nav>
 
-  <div class="img"></div>
-
   <!--Līdz šai daļai tiek izmantots katrā lapā -->
 
   <div class="heading">
     <div class="head">Tiešā saziņa šeit</div>
     <div class="sub-head">Pievienojiet jautājumu</div>
   </div>
+
+<div class="Questions">
+  <div class="card">
+    <form>
+      <input type="text" class="input-box" placeholder="Your First name" required>
+      <input type="text" class="input-box" placeholder="Your Last Name" required>
+      
+      <label for="QuestTopic">Choose Topic type:</label>
+        <select name="type" id="type">
+          <option value="Collobaration">Collobaration</option>
+          <option value="AboutCoding">About Coding</option>
+          <option value="Other">Other</option>
+        </select>
+
+      <input type="text" class="input-box" placeholder="Your question" required>
+
+      
+      </select>
+  </div>
+</div>
+
   
 
   <script src="script.js"></script>
