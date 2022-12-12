@@ -1,20 +1,11 @@
 <?php
-class MyProject{
-    public $projectname = 'sandbox';
-    public $version = '1234';
-    public $coll = ['es', 'tu'];
-}
+//Using composer Class autoloader
+include "vendor/autoload.php";
 
-// Izveidota clase
-$project = new MyProject();
+use App\Database;
 
-//Seit ir printesana
-echo $project-> projectName;
-echo $project->version;
+$database= new Database;
 
-
-public function hello(){
-    echo $this-> projectName . ' - ' . $this -> version;
-}
+echo $database->host;
 
 ?>
