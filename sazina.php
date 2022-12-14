@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
 
@@ -31,11 +33,11 @@
 
 <div class="Questions">
   <div class="card">
-    <form>
-      <input type="text" class="input-box" placeholder="Jūsu vārds" required>
+    <form action="<?php echo $_SERVER["PHP_SELF"] ?>" method="get">
+      <input type="text" class="input-box" name="first" placeholder="Jūsu vārds" required>
 
 
-      <input type="text" class="input-box" placeholder="Jūsu uzvārds">
+      <input type="text" class="input-box" name="last"placeholder="Jūsu uzvārds">
       
       <label for="QuestTopic">Izvēlaties tēmu:</label>
         <select name="type" id="type">
@@ -44,7 +46,7 @@
           <option value="Other">Cits</option>
         </select>
 
-      <input type="text" class="input-box" placeholder="Your question" required>
+      <input type="text" class="input-box" name="quest" placeholder="Your question" required>
       <button type="submit" class="submit-btn">Pievienot jautājumu</button>
     
     </form>
