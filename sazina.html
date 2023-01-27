@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MANA-VIZITKARTE</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="sazina.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -22,34 +22,52 @@
     </div>
   </nav>
 
+
   <!--Līdz šai daļai tiek izmantots katrā lapā -->
 
-  <div class="heading">
-    <div class="head">Tiešā saziņa šeit</div>
-    <div class="sub-head">Pievienojiet jautājumu</div>
-  </div>
 
 <div class="Questions">
   <div class="card">
-    <form>
-      <input type="text" class="input-box" placeholder="Jūsu vārds" required>
+    <div class="box">
+        <span></span>
+        <div class="content">
+          <h2>Uzdod jautājumu man</h2>
+          
+          <form>
+          <div class="input-group">
+          <label class="label">Email address</label>
+          <input autocomplete="off" name="Email" id="Email" class="input" type="email">
+          <div></div>
+        </div>
+
+        <div class="input-group">
+          <label class="label">Your Name</label>
+          <input autocomplete="off" name="yourName" id="yourName" class="input" type="text">
+          <div></div>
+        </div>
+
+        <div class="inputM">
+          <label class="label">Your message</label>
+          <input autocomplete="off" name="Message" id="message" class="input" type="text" width="120%">
+          <div></div>
+        </div>
 
 
-      <input type="text" class="input-box" placeholder="Jūsu uzvārds">
+        <button class="button">
+          SEND
+        </button>
+
+
+      </form>
+        </div></div>
+        
       
-      <label for="QuestTopic">Izvēlaties tēmu:</label>
-        <select name="type" id="type">
-          <option value="Collobaration">Sadarbība</option>
-          <option value="AboutCoding">Par programmēšanu</option>
-          <option value="Other">Cits</option>
-        </select>
-
-      <input type="text" class="input-box" placeholder="Your question" required>
-      <button type="submit" class="submit-btn">Pievienot jautājumu</button>
-    
-    </form>
-    </select>
+  
   </div>
+
+
+
+
 </div>
 
   
